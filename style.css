@@ -165,6 +165,7 @@ body{
     .cabecalhoMenuItem{
         background-color: rgba(10, 10, 10, .5);
         border-top: 1px solid #fff;
+        height: 1.5rem;
     }
 
     .imagemLogo{
