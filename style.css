@@ -59,20 +59,22 @@ body{
     justify-content: space-around;
 }
 .imagemPNG{
-    height: 550px;
-    width: 450px;
+    height: 500px;
+    width: 400px;
 }
+
+
 
 .conteudoPrincipalEscrito{
     display: flex;
     flex-direction: column;
-    gap: 33px;
+    gap: 25px;
 }
 
 .conteudoPrincipalEscritoTitulo{
     font-family: 'Lobster', cursive;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 2.3rem;
     color: #fff;
 }
 
@@ -80,7 +82,7 @@ body{
     font-family: 'Source Code Pro', monospace;
     color: #fff;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 1.2rem;
 
 }
 
@@ -92,7 +94,7 @@ body{
     width: 200px;
     height: 90px;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 1.2rem;
     box-shadow: 4px 4px 4px rgba(10, 10, 10, .5);
     cursor: pointer;
 
@@ -114,7 +116,7 @@ body{
 .conteudoSecundarioTitulo{
     color: #fff;
     font-family: 'Lobster', cursive;
-    font-size: 28px;
+    font-size: 1.8rem;
     font-weight: 200;
     border-top: 0.4px solid #fff2e7;
     padding-top: 39px;
@@ -123,7 +125,7 @@ body{
 .conteudoSecundarioParagrafo{
     color: #fff;
     font-family: 'Source Code Pro', monospace;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 100;
 
 }
@@ -134,6 +136,42 @@ body{
 .imagemRodape{
     height: 300px;
     width:100%;
+}
+
+@media(max-width: 768px ){
+
+    .imagemPNG{
+        height: 350px;
+        width: 250px;
+    }
+    .conteudoPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10%;
+    }
+
+    .cabecalhoMenu{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .cabecalhoMenuItem{
+        background-color: rgba(10, 10, 10, .5);
+        border-top: 1px solid #fff;
+    }
+
+    .imagemLogo{
+        border-radius: 150px;
+        height: 70px;
+        width: 70px;
+        display: none;
+    }
+
 }
 
 
