@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Code+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 17%, #2f9091 83%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.imagemLogo{
+    border-radius: 150px;
+    height: 70px;
+    width: 70px;
+}
+
+.cabecalhoMenu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalhoMenuItem{
+
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalhoMenuItem:hover{
+    color:rgb(255, 255, 255, .5);
+    transition: 0.4s;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ddd;
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagemPNG{
+    height: 550px;
+    width: 450px;
+}
+
+.conteudoPrincipalEscrito{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.conteudoPrincipalEscritoTitulo{
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    font-size: 50px;
+    color: #fff;
+}
+
+.conteudoPrincipalEscritoSubtitulo{
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
+.conteudoPrincipalEscritoBotao{
+
+    background-color: darkcyan;
+    color: #ddd;
+    border: none;
+    width: 200px;
+    height: 90px;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px rgba(10, 10, 10, .5);
+    cursor: pointer;
+
+}
+.conteudoPrincipalEscritoBotao:hover{
+    background-color: rgba(59, 71, 71, 0.651);
+    transition: 0.4s;
+}
+
+.contudoSecundario{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 54px;
+
+}
+
+.conteudoSecundarioTitulo{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    font-weight: 200;
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 39px;
+
+}
+.conteudoSecundarioParagrafo{
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.rodape{
+    border-top: 5px solid rgba(10, 100, 10, .731);
+}
+.imagemRodape{
+    height: 300px;
+    width:100%;
+}
+
+
