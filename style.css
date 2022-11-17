@@ -5,12 +5,6 @@
     padding: 0;
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    
-}
-
 body{
     font-size: 100%;
     background: linear-gradient(68.15deg, #2f2325 17%, #2f9091 83%);
@@ -139,6 +133,14 @@ body{
 }
 
 @media(max-width: 768px ){
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px;
+    }
 
     .imagemPNG{
         height: 350px;
